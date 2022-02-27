@@ -1,0 +1,15 @@
+# http://editorconfig.org
+
+root = true
+
+[*] # apply to all files
+charset = utf-8
+indent_style = space #（tab | space）
+indent_size = 2
+end_of_line = lf # (lf | cr | crlf)
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md] # for .md files
+max_line_length = off
+trim_trailing_whitespace = false
